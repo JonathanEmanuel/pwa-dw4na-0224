@@ -1,0 +1,39 @@
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    height:  70vh;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    transition: all ease-in-out 0.5s;
+
+}
+
+.dark {
+    background-color: black;
+    transition: all ease-in-out 0.5s;
+}
+
+.dark form {
+    background-color: rgb(31, 31, 31);
+    color: aliceblue;
+}
+
+.dark form input {
+    background-color: black;
+    color: aliceblue;
+
+}
