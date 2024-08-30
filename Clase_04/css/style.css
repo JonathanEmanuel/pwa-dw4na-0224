@@ -1,0 +1,27 @@
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    height:  70vh;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    transition: all ease-in-out 0.5s;
+
+}
+
+.oculto {
+    display: none;
+}
